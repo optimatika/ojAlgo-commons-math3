@@ -11,8 +11,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
-        <ojalgo.version>48.3.1</ojalgo.version>
-        <junit.jupiter.version>5.7.0</junit.jupiter.version>
     </properties>
     <dependencies>
         <dependency>
@@ -23,12 +21,12 @@
         <dependency>
             <groupId>org.ojalgo</groupId>
             <artifactId>ojalgo</artifactId>
-            <version>${ojalgo.version}</version>
+            <version>48.3.1</version>
         </dependency>
         <dependency>
             <groupId>org.ojalgo</groupId>
             <artifactId>ojalgo</artifactId>
-            <version>${ojalgo.version}</version>
+            <version>48.3.1</version>
             <classifier>tests</classifier>
             <type>test-jar</type>
             <scope>test</scope>
@@ -36,19 +34,19 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>${junit.jupiter.version}</version>
+            <version>5.7.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit.jupiter.version}</version>
+            <version>5.7.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
-            <version>${junit.jupiter.version}</version>
+            <version>5.7.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
